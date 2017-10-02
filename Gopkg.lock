@@ -134,6 +134,12 @@
   revision = "491d3605edfb866af34a48075bd4355ac1bf46ca"
 
 [[projects]]
+  name = "github.com/onsi/gomega"
+  packages = ["format"]
+  revision = "c893efa28eb45626cdaa76c9f653b62488858837"
+  version = "v1.2.0"
+
+[[projects]]
   name = "github.com/pelletier/go-buffruneio"
   packages = ["."]
   revision = "c37440a7cf42ac63b919c752ca73a85067e05992"
@@ -144,6 +150,12 @@
   packages = ["."]
   revision = "5ccdfb18c776b740aecaf085c4d9a2779199c279"
   version = "v1.0.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/petergtz/pegomock"
+  packages = [".","internal/verify","model"]
+  revision = "cc94f74ce20a9c2575a77736799f359ef247beef"
 
 [[projects]]
   name = "github.com/pkg/errors"
@@ -226,6 +238,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5f8263e051e92b10d478d81add4b1fc9d6e7cb7dba280c123a13b2c1d2150a64"
+  inputs-digest = "da7995fa759fb05c34a74a2880c972995665cef35442e2e125606da1f4a32390"
   solver-name = "gps-cdcl"
   solver-version = 1
